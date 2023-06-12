@@ -4,7 +4,7 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['http://localhost:1338','http://localhost:8000','https://example.netlify.app'], 
+      origin: ['http://localhost:1338','http://localhost:8000'], 
       headers: [
         'Content-Type',
         'Authorization',
