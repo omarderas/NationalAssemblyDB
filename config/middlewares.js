@@ -4,7 +4,7 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['http://localhost:1338','http://localhost:8000', 'https://dazzling-love-27c27bfaa6.strapiapp.com/admin'], 
+      origin: ['http://localhost:1338','http://localhost:8000', 'https://dazzling-love-27c27bfaa6.strapiapp.com'], 
       headers: [
         'Content-Type',
         'Authorization',
