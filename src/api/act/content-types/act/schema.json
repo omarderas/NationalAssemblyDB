@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "acts",
+  "info": {
+    "singularName": "act",
+    "pluralName": "acts",
+    "displayName": "Document Center",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Doc": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "Acts of Parliament",
+        "Orders of the Day",
+        "Draft Bills"
+      ]
+    },
+    "Year": {
+      "type": "integer"
+    }
+  }
+}
