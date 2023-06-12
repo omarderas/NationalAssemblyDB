@@ -3,7 +3,7 @@ module.exports = ({ env }) => ({
   port: env.int('PORT', 1338),
   settings: {
     session: {
-      keys: ['myKeyA', 'myKeyB'],
+      keys: ['5fcMd2/nmTY6/3c4BoE', '9N38ir620Hjx+jTVeMr'],
     },
   },
   app: {
