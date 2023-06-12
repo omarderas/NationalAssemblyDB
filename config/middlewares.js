@@ -12,7 +12,7 @@ module.exports = [
         'X-Pagination-Total-Count',
         'X-Pagination-Page-Count',
         'X-Pagination-Current-Page',
-      ],
+      ],                        
     },
   },
   'strapi::poweredBy',
