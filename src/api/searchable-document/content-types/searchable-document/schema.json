@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "searchable_documents",
+  "info": {
+    "singularName": "searchable-document",
+    "pluralName": "searchable-documents",
+    "displayName": "Searchable Document",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ocrContent": {
+      "type": "richtext"
+    },
+    "document_center": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::act.act"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Doc": {
+    "PDF": {
       "type": "media",
       "multiple": true,
       "required": false,
@@ -33,6 +33,25 @@
     },
     "Year": {
       "type": "integer"
+    },
+    "Month": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Keywords": {
+      "type": "richtext"
+    },
+    "Status": {
+      "type": "enumeration",
+      "enum": [
+        "Private",
+        "Public"
+      ]
     }
   }
 }

@@ -4,7 +4,8 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['http://localhost:1338','http://localhost:8000', 'https://dazzling-love-27c27bfaa6.strapiapp.com'], 
+     origin: ['http://localhost:1338','http://localhost:8000', 'https://dazzling-love-27c27bfaa6.strapiapp.com'],
+    // origin: ['http://localhost:1338','http://localhost:8000'],  
       headers: [
         'Content-Type',
         'Authorization',
@@ -14,6 +15,7 @@ module.exports = [
         'X-Pagination-Current-Page',
       ],                        
     },
+
   },
   'strapi::poweredBy',
   'strapi::logger',
@@ -22,4 +24,5 @@ module.exports = [
   'strapi::session',
   'strapi::favicon',
   'strapi::public',
+
 ];
