@@ -4,7 +4,8 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
-     origin: ['http://localhost:1338','http://localhost:8000', 'https://dazzling-love-27c27bfaa6.strapiapp.com','https://nationalassembly.netlify.app/'],
+    enabled: true,
+     origin: ['http://localhost:1338','http://localhost:8000', 'https://dazzling-love-27c27bfaa6.strapiapp.com','https://nationalassembly.netlify.app'],
     // origin: ['http://localhost:1338','http://localhost:8000'],  
       headers: [
         'Content-Type',
