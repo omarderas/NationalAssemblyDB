@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "meeting",
+  "info": {
+    "singularName": "meetings",
+    "pluralName": "meeting",
+    "displayName": "Meetings",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Date": {
+      "type": "string"
+    },
+    "Time": {
+      "type": "string"
+    },
+    "Location": {
+      "type": "string"
+    }
+  }
+}

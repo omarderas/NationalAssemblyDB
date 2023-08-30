@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "meeting_video",
+  "info": {
+    "singularName": "meeting-videos",
+    "pluralName": "meeting-video",
+    "displayName": "Latest Meeting Videos",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "LatestSenateMeetingVideoLink": {
+      "type": "string"
+    },
+    "LatestHouseMeetingVideoLink": {
+      "type": "string"
+    }
+  }
+}
